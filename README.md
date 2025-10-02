@@ -49,7 +49,7 @@ sudo apt install python3
 ```
 **    **
 ## Step 4
-**Once Python 3 is installed, create a Python file using sudo nano groupmail.py.**
+**Once Python 3 is installed, create a Python file using sudo nano grpmaill.py.**
 ```
 sudo nano grpmaill.py
 ```
