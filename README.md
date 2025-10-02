@@ -45,7 +45,6 @@ https://myaccount.google.com/u/1/apppasswords?pli=1&rapt=AEjHL4MMXFWfbgWWYDe6pSI
 **Download Python 3 on your Linux machine. To install Python 3, use:**
 ```
 sudo apt install python3
-
 ```
 **    **
 ## Step 4
@@ -56,7 +55,7 @@ sudo nano grpmaill.py
 **You may choose any name you prefer for the script.**
 **    **
 ## Step 5
-**Copy my Python script and paste it into your terminal. Then, replace the Gmail address and receiver address with your own choices.**
+**Copy The Python script and past it into your terminal. Then, replace the Gmail address and receiver address with your own choices.**
 
 ```
 #!/usr/bin/env python3
@@ -134,15 +133,16 @@ except Exception as e:
     print("Failed to send email:", type(e).__name__, e)
 ```
 **Press Ctrl + X, then Y, and finally Enter to save and exit the file.**
-
-<img width="670" height="73" alt="image" src="https://github.com/user-attachments/assets/08390f28-363d-4f63-a5bd-20ec6ccc7aee" />
-**  **
+**    **
 ## Step 6
+
+<img width="529" height="49" alt="image" src="https://github.com/user-attachments/assets/09579ab5-26f1-4fa5-9e81-52ff42c4076b" />
+
+**  **
 
 **Set your Gmail App Password using the following command:**
 ```
 export GMAIL_APP_PASSWORD="xxxxvvvvwwwwmmmm"
-
 ```
 **      **
 **This is the 16-digit password generated in Step 2 (App Password)**
@@ -161,10 +161,11 @@ python3 grpmaill.py
 **If you see the email sent successfully, it means all tasks were performed correctly and the process is complete**
 <img width="684" height="84" alt="image" src="https://github.com/user-attachments/assets/267477cc-37c6-4b65-b1cd-70648324d82d" />
 
-
+**    **
+**Now check all the recipients’ email inboxes to make sure the mail was received**
 **  **
 
-## Thak you
+   ## Thak you
 
 **  **
 
